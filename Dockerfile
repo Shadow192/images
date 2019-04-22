@@ -9,7 +9,7 @@ FROM        adoptopenjdk/openjdk8-openj9:slim
 LABEL       author="Dragos" maintainer="dragos@gamster.org"
 
 RUN apt-get update -y \
- && apt-get install -y curl ca-certificates openssl git tar sqlite fontconfig tzdata iproute2 \
+ && apt-get install -y curl ca-certificates openssl git tar sqlite fontconfig iproute2 \
  && useradd -d /home/container -m container
 
 USER        container
