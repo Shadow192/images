@@ -9,7 +9,7 @@ LABEL       author="Dragos" maintainer="dragos@gamster.org"
 
 RUN apk update \
  && apk add ca-certificates openssl git tar sqlite fontconfig iproute2 \
- && adduser --home "/home/container" container
+ && adduser -D --home "/home/container" container
  
 USER container
 ENV  USER=container HOME=/home/container
