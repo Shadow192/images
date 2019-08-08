@@ -8,7 +8,7 @@ FROM        adoptopenjdk/openjdk8-openj9:alpine-slim
 LABEL       author="Dragos Mihail" maintainer="dragos@gamster.org"
 
 RUN apk update \
- && apk add ca-certificates openssl bash git tar sqlite fontconfig iproute2 \
+ && apk add ca-certificates openssl bash git tar sqlite fontconfig ttf-dejavu iproute2 \
  && adduser -D --home "/home/container" container
  
 USER container
