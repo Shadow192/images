@@ -3,7 +3,7 @@
 # Environment: Java Open J9 (glibc support)
 # Minimum Panel Version: 0.6.0
 # ----------------------------------
-FROM        adoptopenjdk/openjdk8-openj9:alpine-jre
+FROM        adoptopenjdk/openjdk8-openj9:alpine
 
 LABEL       author="Dragos Mihail" maintainer="dragos@gamster.org"
 
