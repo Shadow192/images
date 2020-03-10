@@ -1,10 +1,10 @@
 # ----------------------------------
 # Pterodactyl Core Dockerfile
-# Environment: Java Open J9 (glibc support)
+# Environment: Java JRE 11
 # Minimum Panel Version: 0.6.0
 # ----------------------------------
 
-FROM        adoptopenjdk/openjdk8-openj9:slim
+FROM        adoptopenjdk/openjdk11:debianslim-jre
 
 LABEL       author="Dragos" maintainer="dragos@gamster.org"
 
