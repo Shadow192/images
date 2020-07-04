@@ -4,7 +4,7 @@ cd /home/container
 # Output Current Java Version
 java -version
 
-rm -rf Ashore1/ Ashore2/ Ashore3/ Ashore4/ Boletum1/ Boletum2/ Boletum3/ Boletum4/ Chained1/ Chained2/ Chained3/ Chained4/ Eastwood1/ Eastwood2/ Eastwood3/ Eastwood4/ Lectus1/ Lectus2/ Lectus3/ Lectus4/ Treenan1/ Treenan2/ Treenan3/ Treenan4/
+rm -rf Aquarium Aquarium2 Aquarium3 Aquarium4 Carapace Carapace2 Carapace3 Carapace4 Dreamgrove Dreamgrove2 Dreamgrove3 Dreamgrove4 SandCastle SandCastle2 SandCastle3 SandCastle4 Stonekeep Stonekeep2 Stonekeep3 Stonekeep4 Temple Temple2 Temple3 Temple4
 tar -xf bw.tar.gz
 
 # Make internal Docker IP address available to processes.
