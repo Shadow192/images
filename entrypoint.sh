@@ -4,7 +4,7 @@ cd /home/container
 # Output Current Java Version
 java -version
 
-rm -rf Hollow1/ Hollow2/ Hollow3/ Hollow4/ Hollow5/ Lighthouse1/ Lighthouse2/ Lighthouse3/ Lighthouse4/ Lighthouse5/ Pernicious1/ Pernicious2/ Pernicious3/ Pernicious4/ Pernicious5/ Rooftop1/ Rooftop2/ Rooftop3/ Rooftop4/ Rooftop5/ Waterfall1/ Waterfall2/ Waterfall3/ Waterfall4/ Waterfall5/
+rm -rf Amazon/ Amazon2/ Amazon3/ Amazon4/ Ashfire/ Ashfire2/ Ashfire3/ Ashfire4/ Crogorm/ Crogorm2/ Crogorm3/ Crogorm4/ Dragonstar/ Dragonstar2/ Dragonstar3/ Dragonstar4/ Speedway/ Speedway2/ Speedway3/ Speedway4/ Zarzul/ Zarzul2/ Zarzul3/ Zarzul4/
 tar -xf bw.tar.gz
 
 # Make internal Docker IP address available to processes.
